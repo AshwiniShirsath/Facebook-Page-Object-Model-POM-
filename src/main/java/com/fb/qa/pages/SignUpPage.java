@@ -1,3 +1,5 @@
+/*This is SignUp page of Facebook*/
+
 package com.fb.qa.pages;
 
 import org.openqa.selenium.By;
