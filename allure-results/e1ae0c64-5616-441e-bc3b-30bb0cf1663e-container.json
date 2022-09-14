@@ -1,0 +1,1 @@
+{"uuid":"e1ae0c64-5616-441e-bc3b-30bb0cf1663e","name":"testNGData.LoginTest.setUp","children":["bf42eb75-9f0f-43b5-ac5d-fc03392086be"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1663148287930,"stop":1663148291740}],"afters":[],"start":1663148287930,"stop":1663148291740}
