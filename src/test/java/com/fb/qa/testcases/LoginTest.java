@@ -27,8 +27,7 @@ public class LoginTest {
 
     @DataProvider
     public Object[][] getLoginData() {
-        Object[][] data = TestUtil.getTestData("login");
-        return data;
+        return TestUtil.getTestData("login");
     }
 
     @Test(dataProvider = "getLoginData")
