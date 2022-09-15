@@ -1,7 +1,4 @@
-/*
- * @autor : Naveen Khunteta
- *
- */
+
 package com.fb.qa.extentreport;
 
 import java.io.File;
