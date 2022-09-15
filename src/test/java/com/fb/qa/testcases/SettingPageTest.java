@@ -23,13 +23,13 @@ public class SettingPageTest extends SettingPage {
 		driver.findElement(By.name("pass")).sendKeys("ashwini1221");
 		driver.findElement(By.name("login")).click();
 		driver.findElement(By.xpath(
-				"//input[contains(@class,'qi72231t s3jn8y49 k14qyeqv mz1h5j5e ztn2w49o s19c0p35 febi1ev9 pccvoycu c84hr6m5 losq46hw qgrdou9d nu7423ey n3hqoq4p r86q59rh b3qcqh3k fq87ekyn f92fqwvt cavyzvzu bbgqxxx1 j4vk3mq5 bdao358l pbevjfx6 tgm57n0e cgu29s5g i15ihif8 no6h3tfh k1z55t6l aeinzg81 icdlwmnq om3e55n1 rh5b4hnh gy87pps4 b0eko5f3 r9fxt90l nq2b4knc jrp0dh92 m8m1d84o him0ws1g s0u2i99n oe2youzz mizpstq0 adj1mh9s h7nzrzxv gl9yfm1p ap9gnrge k4z0jo6w')]"))
+						"//input[contains(@class,'qi72231t s3jn8y49 k14qyeqv mz1h5j5e ztn2w49o s19c0p35 febi1ev9 pccvoycu c84hr6m5 losq46hw qgrdou9d nu7423ey n3hqoq4p r86q59rh b3qcqh3k fq87ekyn f92fqwvt cavyzvzu bbgqxxx1 j4vk3mq5 bdao358l pbevjfx6 tgm57n0e cgu29s5g i15ihif8 no6h3tfh k1z55t6l aeinzg81 icdlwmnq om3e55n1 rh5b4hnh gy87pps4 b0eko5f3 r9fxt90l nq2b4knc jrp0dh92 m8m1d84o him0ws1g s0u2i99n oe2youzz mizpstq0 adj1mh9s h7nzrzxv gl9yfm1p ap9gnrge k4z0jo6w')]"))
 				.sendKeys("settings");
 		driver.findElement(By.xpath(
-				"(//span[contains(@class,'gvxzyvdx aeinzg81 t7p7dqev gh25dzvf exr7barw k1z55t6l oog5qr5w tes86rjd pbevjfx6')])[1]"))
+						"(//span[contains(@class,'gvxzyvdx aeinzg81 t7p7dqev gh25dzvf exr7barw k1z55t6l oog5qr5w tes86rjd pbevjfx6')])[1]"))
 				.click();
 		driver.findElement(By.name(
-				"(//span[contains(@class,'gvxzyvdx aeinzg81 t7p7dqev gh25dzvf exr7barw b6ax4al1 gem102v4 ncib64c9 mrvwc6qr sx8pxkcf f597kf1v cpcgwwas m2nijcs8 szxhu1pg hpj0pwwo sggt6rq5 tpi2lg9u pbevjfx6 ztn2w49o')])[1]"))
+						"(//span[contains(@class,'gvxzyvdx aeinzg81 t7p7dqev gh25dzvf exr7barw b6ax4al1 gem102v4 ncib64c9 mrvwc6qr sx8pxkcf f597kf1v cpcgwwas m2nijcs8 szxhu1pg hpj0pwwo sggt6rq5 tpi2lg9u pbevjfx6 ztn2w49o')])[1]"))
 				.click();
 	}
 
