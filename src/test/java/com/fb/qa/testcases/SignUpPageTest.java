@@ -70,6 +70,7 @@ public class SignUpPageTest extends SignUpPage {
     @Test(priority = 11)
     public void verifySubmitbtnOfSignUpPage(){
         String subBtn = verifySignUpBtnField();
+        System.out.println(subBtn);
         Assert.assertEquals(subBtn,"websubmit");
     }
     @AfterTest
