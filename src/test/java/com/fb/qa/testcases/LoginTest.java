@@ -1,4 +1,4 @@
-package testNGData;
+package com.fb.qa.testcases;
 
 
 import com.fb.qa.pages.HomePage;
