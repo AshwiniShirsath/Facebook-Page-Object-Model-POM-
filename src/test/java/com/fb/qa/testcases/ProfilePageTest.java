@@ -16,7 +16,7 @@ public class ProfilePageTest extends ProfilePage {
     }
     @BeforeMethod
     public void setUp(){
-       initialize();
+        initialize();
         driver.get("https://www.facebook.com/?sk=welcome");
         driver.findElement(By.name("email")).sendKeys("ashwinishirsath1221@gmail.com");
         driver.findElement(By.name("pass")).sendKeys("ashwini1221");
@@ -75,6 +75,6 @@ public class ProfilePageTest extends ProfilePage {
     }
     @AfterTest
     public void closeBrowsers(){
-          driver.quit();
+        driver.quit();
     }
 }
